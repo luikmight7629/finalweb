@@ -1,0 +1,141 @@
+/*GIVEN CODE*/
+body{
+color:#40514E;
+margin:0;
+text-align: center;
+font-family: 'Merriweather', serif;
+
+}
+
+h1{
+	color:#66BFBF;
+	margin: 50px auto 0 auto;
+	font-family: 'Sacramento', cursive;
+
+	font-size:5.625rem;
+
+}
+
+h2{
+	color:#66BFBF;
+	font-family: 'Montserrat', sans-serif;
+	font-size:2.5rem;
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+
+h3{
+	color:#11999E ;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.codeimg{
+
+	width: 25%;
+	float:left;
+	margin-right: 30px;
+}
+
+.ITimg{
+
+	width:25%;
+	float:right;
+	margin-left: 30px;
+}
+
+
+hr{
+
+	border: dotted #EAF6F6 6px;
+	border-bottom:none;
+	width:4%;
+	margin: 100px auto;
+}
+
+
+/*START CODING*/
+
+section{padding: 0;margin: 0;}
+/*FIRST SECTION*/
+.FIRST {padding-top: 30px;background-color: #E4F9F5;/*#e6fff7;*/}
+.cloud1 {position: absolute;right: 20%;}
+.cloud2 {position: absolute;left: 20%;}
+
+
+/*SECOND SECTION*/
+.SECOND {padding-top: 100px;background-color: #fff;}
+.contentbox{margin: 100px auto;width:965px;height: 350px; ;text-align: left;}
+.ITimg img {width: 250px;height:250px}
+p{line-height: 25px;}
+
+
+.btn {
+  background: #15C2D0;
+  background-image: -webkit-linear-gradient(top, #15C2D0, #2490BF);
+  background-image: -moz-linear-gradient(top, #15C2D0, #2490BF);
+  background-image: -ms-linear-gradient(top, #15C2D0, #2490BF);
+  background-image: -o-linear-gradient(top, #15C2D0, #2490BF);
+  background-image: linear-gradient(to bottom, #15C2D0, #2490BF);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin: 50px auto;
+  text-decoration: none;
+  border-style: none;
+  font-style: italic;
+
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.Five{
+
+    background-color: #66BFBF;
+
+}
+
+.form
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h4 
+{
+  
+  font-family: 'Montserrat', sans-serif;
+   display: inline;
+   font-size: 14px;
+   margin: auto 10px;
+}
+
+h4 a
+{
+
+ margin: auto 10px;
+   text-decoration: none;
+  color:#11999E ;
+}
+
+footer{
+    color: white;
+    font-size:14px;
+    padding-bottom: 40px; 
+}
+
+span
+{
+  font-size: 10px;
+}
